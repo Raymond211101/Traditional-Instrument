@@ -7,7 +7,7 @@ import tensorflow.keras.utils as image
 st.set_page_config(layout="wide")
 
 st.markdown("<h1 style='text-align: center;'>Free-Predict</h1>", unsafe_allow_html=True)
-st.markdown("<h3 style='text-align: center;'>🎍Predict Ornamental Plant🎍 </h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center;'>🎍Alat Musik Tradisional🎍 </h3>", unsafe_allow_html=True)
 st.text("")
 st.divider()
 col1, col2 = st.columns(2)
