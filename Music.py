@@ -15,8 +15,6 @@ col1, col2 = st.columns(2)
 class_names = ['Angklung', 'Arumba', 'Calung', 'Jengglong', 'Kendang']
 class_names2 = ['Alat Musik', 'Random']
 
-st.session_state['model2'] = None
-
 if 'model' not in st.session_state:
     with st.spinner('Compiling & Load the model..'):
         st.session_state['model'] = load_model('Model1.h5',compile=False)
